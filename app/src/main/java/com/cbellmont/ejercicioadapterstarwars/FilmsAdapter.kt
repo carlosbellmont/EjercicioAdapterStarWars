@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 
-class FilmsAdapter() : RecyclerView.Adapter<FilmsAdapter.FilmsViewHolder>() {
+class FilmsAdapter : RecyclerView.Adapter<FilmsAdapter.FilmsViewHolder>() {
 
     class Film(var id : Int, var name : String, var intro : String) {
         fun getUrlImage() : String {
