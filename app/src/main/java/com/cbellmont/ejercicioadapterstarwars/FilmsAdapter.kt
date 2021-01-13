@@ -23,7 +23,7 @@ class FilmsAdapter : RecyclerView.Adapter<FilmsAdapter.FilmsViewHolder>() {
             }
         }
     }
-    var films : List<Film> = listOf(
+    private var films : List<Film> = listOf(
         Film(1, "La Amenaza Fantasma", "aaaa"),
         Film(2, "El Ataque de los Clones", "aaaa"),
         Film(3, "La Venganza de los Sith", "aaaa"),
